@@ -32,8 +32,7 @@ Create table Product(
 Id Int Primary key,
 ProductName nvarchar(50),
 UnitPrice decimal(12,2),
-Package nvarchar(30),
-IsDiscontinued bit );
+Package nvarchar(30) );
 
 -- Creation of indexes for Product table
 create index IndexProductSupplierId on Product(Id);
